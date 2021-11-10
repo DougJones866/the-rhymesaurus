@@ -15,7 +15,7 @@ const routes = [
   {
     path: '/rhymesaurus',
     name: 'Rhymesaurus',
-    component: () => import('./views/rhymesaurus.vue')
+    component: () => import('./views/Rhymesaurus.vue')
   }
 ]
 
