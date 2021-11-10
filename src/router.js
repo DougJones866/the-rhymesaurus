@@ -10,12 +10,12 @@ const routes = [
   {
     path: '/adjective',
     name: 'Adjective',
-    component: () => import('../views/Adjective.vue')
+    component: () => import('./views/Adjective.vue')
   },
   {
     path: '/rhymesaurus',
     name: 'Rhymesaurus',
-    component: () => import('../views/Rhymesaurus.vue')
+    component: () => import('./views/Rhymesaurus.vue')
   }
 ]
 
