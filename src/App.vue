@@ -4,9 +4,9 @@
     <router-link to="/">Adjective For Noun</router-link>
     <p></p>
     <router-link to="/rhymesaurus">Rhymesaurus</router-link>
+  <router-view/>
   </div>
   
-  <router-view/>
 </template>
 
 <script>
