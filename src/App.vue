@@ -4,11 +4,14 @@
     <router-link to="/">Adjective For Noun</router-link>
     <router-link to="/rhymesaurus">Rhymesaurus</router-link>
   </div>
+  
   <router-view/>
 </template>
 
 <script>
+import Adjective from './views/Adjective.vue'
 export default {
+  components: { Adjective },
   name: 'app'
 }
 </script>
