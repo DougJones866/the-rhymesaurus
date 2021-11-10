@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import Adjective from '../views/Adjective.vue'
+
 
 // Vue.use(Router)
 
@@ -10,7 +10,7 @@ const routes = [
   {
     path: '/adjective',
     name: 'Adjective for Noun',
-    component: Adjective
+    component: () => import('../views/Adjective.vue')
   },
   {
     path: '/rhymesaurus',
