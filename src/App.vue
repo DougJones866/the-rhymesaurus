@@ -3,7 +3,6 @@
     <h1>Fun With Datamuse</h1>
     <!-- <router-link to="/">Adjective For Noun</router-link>
     <router-link to="/rhymesaurus">Rhymesaurus</router-link> -->
-    <adjective></adjective>
   </div>
   <router-view/>
 </template>
