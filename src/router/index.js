@@ -5,11 +5,11 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 const routes = [
 
-  { path: '/', redirect: '/Adjective' },
+  // { path: '/', redirect: '/Adjective' },
 
   {
-    path: '/adjective',
-    name: 'Adjective for Noun',
+    path: '/',
+    name: 'Adjective',
     component: () => import('../views/Adjective.vue')
   },
   {
