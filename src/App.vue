@@ -1,8 +1,8 @@
 <template>
   <div id="app">
     <h1>Fun With Datamuse</h1>
-    <!-- <router-link to="/">Adjective For Noun</router-link>
-    <router-link to="/rhymesaurus">Rhymesaurus</router-link> -->
+    <router-link to="/">Adjective For Noun</router-link>
+    <router-link to="/rhymesaurus">Rhymesaurus</router-link>
   </div>
   <router-view/>
 </template>
