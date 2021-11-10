@@ -1,7 +1,7 @@
 <template>
   <div class="adjfornoun">
     <h2>Adjective</h2>
-    <p><router-link to="/Rhymesaurus">Rhymesaurus</router-link></p>
+    <p><router-link to="/rhymesaurus">Rhymesaurus</router-link></p>
     <form v-on:submit.prevent="findWords">
       <p>
         Find and adjective from a given noun

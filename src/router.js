@@ -13,9 +13,9 @@ const routes = [
     component: () => import('./views/Adjective.vue')
   },
   {
-    path: '/Rhymesaurus',
+    path: '/rhymesaurus',
     name: 'Rhymesaurus',
-    component: () => import('./views/Rhymesaurus.vue')
+    component: () => import('./views/rhymesaurus.vue')
   }
 ]
 
