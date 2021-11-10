@@ -13,7 +13,7 @@ const routes = [
     component: () => import('./views/Adjective.vue')
   },
   {
-    path: '/rhymesaurus',
+    path: '/Rhymesaurus',
     name: 'Rhymesaurus',
     component: () => import('./views/Rhymesaurus.vue')
   }
