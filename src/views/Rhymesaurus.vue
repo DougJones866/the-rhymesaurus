@@ -69,18 +69,24 @@ export default {
 <style scoped>
 .rhymesaurus {
   font-size: 1.4rem;
+  background-color: #EBAF5C;
+  border-style: none;
+  box-shadow: 0px 0px 15px black;
+  border-radius: 8px;
 }
 input[type="text"] {
   border-top: none;
   border-left: none;
   border-right: none;
   border-bottom: 1px solid #333;
+  background-color: grey;
   width: 300px;
   font-size: 1.4rem;
   color: #2c3e50;
   font-weight: 300;
   background: rgba(0, 0, 0, 0.02);
   padding: 0.5rem;
+  margin: 15px;
 }
 button {
   background: #333;
@@ -108,6 +114,7 @@ ul.results {
   min-height: 100px;
   color: #fff;
   background: rgba(0, 0, 0, 0.7);
+  border-radius: 8px;
 }
 ul.errors {
   list-style-type: none;

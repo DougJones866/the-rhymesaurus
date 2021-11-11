@@ -1,6 +1,6 @@
 <template>
   <div class="adjfornoun">
-    <h2>Adjective</h2>
+    <h2>Adjective for Noun</h2>
     <p><router-link to="/rhymesaurus">Rhymesaurus</router-link></p>
     <form v-on:submit.prevent="findWords">
       <p>
@@ -62,6 +62,11 @@ export default {
 <style scoped>
 .adjfornoun {
   font-size: 1.4rem;
+  background-color: #E9645A;
+  border-style: none;
+  box-shadow: 0px 0px 15px black;
+  border-radius: 8px;
+  
 }
 input[type="text"] {
   border-top: none;
@@ -74,6 +79,7 @@ input[type="text"] {
   font-weight: 300;
   background: rgba(0, 0, 0, 0.02);
   padding: 0.5rem;
+  margin: 15px;
 }
 button {
   background: #333;
@@ -101,6 +107,7 @@ ul.results {
   min-height: 100px;
   color: #fff;
   background: rgba(0, 0, 0, 0.7);
+  border-radius: 8px;
 }
 ul.errors {
   list-style-type: none;
