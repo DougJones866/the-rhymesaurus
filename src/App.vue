@@ -1,9 +1,6 @@
 <template>
   <div id="app">
     <h1>Fun With Datamuse</h1>
-    <router-link to="/">Adjective For Noun</router-link>
-    <p></p>
-    <router-link to="/rhymesaurus">Rhymesaurus</router-link>
   <router-view/>
   </div>
   
