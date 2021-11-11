@@ -1,8 +1,9 @@
 <template>
   <div id="app">
     <h1>Fun With Datamuse</h1>
-  <router-view/>
+
   </div>
+  <router-view/>
   
 </template>
 
