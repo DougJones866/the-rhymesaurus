@@ -72,12 +72,14 @@ input[type="text"] {
   border-top: none;
   border-left: none;
   border-right: none;
-  border-bottom: 1px solid #333;
+  border-bottom: none;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px black;
   width: 300px;
   font-size: 1.4rem;
   color: #2c3e50;
   font-weight: 300;
-  background: rgba(0, 0, 0, 0.02);
+  /* background: rgba(0, 0, 0, 0.02); */
   padding: 0.5rem;
   margin: 15px;
 }

@@ -1,10 +1,11 @@
 <template>
   <div id="app">
     <h1>Fun With Datamuse</h1>
-    <p>
     <router-link to="/">Adjective For Noun</router-link>
-    <router-link to="/rhymesaurus">Rhymesaurus</router-link>
+    <p>
+      Or
     </p>
+    <router-link to="/rhymesaurus">Rhymesaurus</router-link>
   <router-view/>
   </div>
   
@@ -19,8 +20,9 @@ export default {
 </script>
 
 <style>
-body {
-  background-color: #5C97EB;
+
+body{
+  background-color: #EFF1F7;
 }
 
 #app {
@@ -32,6 +34,10 @@ body {
   
 }
 
+p{
+  font-weight: bold;
+  color: #2c3e50;
+}
 
 
 #nav {
