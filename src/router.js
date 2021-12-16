@@ -1,28 +1,29 @@
 import { createRouter, createWebHistory } from 'vue-router'
-
+const Adjective = () => import ('./views/Adjective.vue')
+const Rhymesaurus = () => import ('./views/Rhymesaurus.vue')
 
 // Vue.use(Router)
 
-const routes = [
+const router = createRouter({
+  history: createWebHistory(),
+  routes: [
 
-  // { path: '/', redirect: '/adjective' },
+  { 
+    path: '/', component: Adjective,  alias: '/adjective' 
+  },
 
   {
-    path: '/',
-    name: 'Adjective',
-    component: () => import('./views/Adjective.vue')
+    path: '/home',
+    component: Adjective,
+    
   },
   {
     path: '/rhymesaurus',
-    name: 'Rhymesaurus',
-    component: () => import('./views/Rhymesaurus.vue')
+    component: Rhymesaurus,
+    
   }
 ]
 
-const router = createRouter({
-  base: "/the-rhymesaurus",
-  history: createWebHistory(process.env.BASE_URL),
-  routes
 })
 
-export default router
+export default router;
